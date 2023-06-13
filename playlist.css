@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.playlistCon{
+    background-color: rgb(195, 236, 195);
+    padding: 0.2rem;
+}
+.playlistContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 2rem;
+}
+.playlistNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.playlistNav button{
+    border: none;
+    background-color: transparent;
+}
+.tracks{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.trackDetails{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.tracks img{
+    width: 5rem;
+    border-radius: 50%;
+}
+.track1,.track2,.track3,.track4,.track5,.track6,.track7,.track8,.track9{
+    background-color: rgb(95, 170, 95);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
